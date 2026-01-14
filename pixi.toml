@@ -1,0 +1,13 @@
+[workspace]
+authors = ["Byron <sixthbaron9@protonmail.com>"]
+channels = ["conda-forge"]
+name = "python-games"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+laser-chess = "cd laser_chess_v4_0 && python laser_chess_gui4.py"
+
+[dependencies]
+python = "3.14.*"
+pyqt = ">=5.15.11,<6"
