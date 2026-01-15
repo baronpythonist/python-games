@@ -2,7 +2,7 @@
 """
 Created on Sat Nov 09 16:45:33 2013
 
-@author: Byron and Zachary Burks
+@author: Byron and Zachary
 """
 
 import sys
